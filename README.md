@@ -1,27 +1,29 @@
-# Homebroker
+# Homebroker - Projeto BootCamp Santander Cotações 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+# Projeto de Implementação de Consulta ao BackEnd criado em Java
 
-## Development server
+## BackEnd hospedado 
+### Heroku  - https://api-santander-bootcamp.herokuapp.com/bootcamp/swagger-ui.html
+### GitHub  - https://github.com/Alecarlos-spx/ApiSantanderJavaSpring
+## FrontEnd hospedado 
+### Gitlab - 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Tecnologia utilizada 
 
-## Code scaffolding
+- Angular versão 8.3.18 [Angular CLI](https://github.com/angular/angular-cli)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Escopo
+	Projeto FrontEnd consulta ao EndPoint para recuperar as cotações
 
-## Build
+## Utilização do Projeto
+1. Após fazer o clone do projeto, utilizar o comando no pompt de comando na pasta do projeto 
+    - `npm install`
+2. Para executar o projeto e abrir no browser em `https://localhost:4200`
+    - `ng serve -o`  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+	
+## Lista das URIs
+	1. Principal https://localhost:4200 
+	
+# Informações para Build
+  - Utilizar o comando `ng build`, será criada uma pasta `dist/`. Para criação de versão de produção utilize a flag `--prod`.
